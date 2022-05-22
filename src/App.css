@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+.BoxColor {
+  margin: 50px;
+  padding: 50px;
+  border: 3px solid black;
+  width: 800px;
+  height: 100px;
+}
+
+.BoxColor p {
+  color: white;
+  font-weight: 500;
+  font-size: 2em;
+}
+
+.CreditCard {
+  border-radius: 20px;
+  margin: 10px;
+  padding: 5px;
+  font-size: 1.5em;
+  display: inline-block;
+  width: 500px;
+  height: 300px;
+}
+
+.CreditCard p h2 {
+  display: flex;
+  align-content: flex-start;
+}
+
+.DriverCard {
+  background-color: cornflowerblue;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  width: 800px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.DriverCard p {
+  color: white;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.Greetings {
+  display: flex;
+  justify-content: flex-start;
+  color: black;
+  border: 3px solid;
+  margin: 10px;
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 1.5em;
+  width: 800px;
+}
+
+.IdCard {
+  margin-bottom: 20px;
+  color: black;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 600px;
+  font-weight: 500;
+}
+
+img {
+  float: left;
+}

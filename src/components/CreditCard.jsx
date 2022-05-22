@@ -12,15 +12,14 @@ const CreditCard = ({
 
   return (
     <div
+      className="CreditCard"
       style={{
         backgroundColor: `${bgColor}`,
         color: `${color}`,
-        width: 300,
-        height: 200,
       }}
     >
       <p>{type}</p>
-      <p>···· ···· ···· {lastNumbers} </p>
+      <h2>···· ···· ···· {lastNumbers} </h2>
       <p>
         Expires: {expirationMonth}/{expirationYear} {bank}
       </p>

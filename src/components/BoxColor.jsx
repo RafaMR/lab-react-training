@@ -1,10 +1,9 @@
 const BoxColor = ({ r, g, b }) => {
   return (
     <div
+      className="BoxColor"
       style={{
         backgroundColor: `rgb(${r}, ${g}, ${b})`,
-        width: 300,
-        height: 200,
       }}
     >
       <p>

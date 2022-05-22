@@ -2,7 +2,7 @@ const Greetings = ({ lang, children }) => {
   let greet = '';
 
   if (lang === 'de') {
-    greet = 'Halo';
+    greet = 'Hallo';
   } else if (lang === 'en') {
     greet = 'Hello';
   } else if (lang === 'es') {
@@ -12,9 +12,11 @@ const Greetings = ({ lang, children }) => {
   }
 
   return (
-    <p>
-      {greet} {children}
-    </p>
+    <div className="Greetings">
+      <p>
+        {greet} {children}
+      </p>
+    </div>
   );
 };
 
