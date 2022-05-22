@@ -1,7 +1,10 @@
 const IdCard = ({ lastName, firstName, gender, height, birth, picture }) => {
   return (
     <div className="IdCard">
-      <img src={picture} alt={picture} style={{ width: 200, height: 200 }} />
+      <div className="Img">
+        <img src={picture} alt={picture} style={{ width: 200, height: 200 }} />
+      </div>
+
       <h3>First Name: {firstName}</h3>
       <h3>Last Name:{lastName}</h3>
 
