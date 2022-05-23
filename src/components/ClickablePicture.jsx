@@ -1,16 +1,21 @@
-//import { useState } from 'react';
+import { useState } from 'react';
 
-const ClickablePicture = ({ img }) => {
-  //const [newImg, setnewImg] = useState(img);
-  //const changeImg = () => {
-  //  if (newImg === img) {
-  //    setnewImg(imgClicked);
-  //  } else {
-  //    setnewImg(img);
-  //  }
-  //};
+const ClickablePicture = ({ img, imgClicked }) => {
+  const [newImg, setnewImg] = useState(img);
 
-  return <img src={img} alt="Alt"></img>;
+  const changeImage = () => {
+    if (newImg === img) {
+      return setnewImg(imgClicked);
+    } else {
+      return setnewImg(img);
+    }
+  };
+
+  return (
+    <div>
+      <img onClick={changeImage} src={newImg} alt="Pepe" />
+    </div>
+  );
 };
 
 export default ClickablePicture;

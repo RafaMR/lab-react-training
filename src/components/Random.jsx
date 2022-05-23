@@ -4,7 +4,7 @@ const Random = ({ min, max }) => {
   };
 
   return (
-    <div>
+    <div className="Random">
       <p>
         Random number between {min} and {max} = {getRandom(min, max)}
       </p>

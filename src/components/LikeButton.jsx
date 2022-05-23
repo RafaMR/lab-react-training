@@ -1,6 +1,8 @@
 import { useState } from 'react';
 
 const LikeButton = () => {
+  const arrColors = ['purple', 'blue', 'green', 'yellow', 'orange', 'red'];
+
   const [count, setLikeValue] = useState(0);
 
   const handleClick = () => {
@@ -9,8 +11,9 @@ const LikeButton = () => {
 
   return (
     <div className="LikeButton">
-      <p> {count} </p>
-      <button onClick={handleClick}>Like</button>
+      <button className={arrColors[count]} onClick={handleClick}>
+        <strong>{count} Likes</strong>
+      </button>
     </div>
   );
 };

@@ -37,6 +37,10 @@
   }
 }
 
+ {
+  /* BoxColor CSS --------------------------------*/
+}
+
 .BoxColor {
   margin: 50px;
   padding: 50px;
@@ -49,6 +53,10 @@
   color: white;
   font-weight: 500;
   font-size: 2em;
+}
+
+ {
+  /* CreditCard CSS --------------------------------*/
 }
 
 .CreditCard {
@@ -64,6 +72,10 @@
 .CreditCard p h2 {
   display: flex;
   align-content: flex-start;
+}
+
+ {
+  /* DriverCard CSS --------------------------------*/
 }
 
 .DriverCard {
@@ -94,6 +106,10 @@
   font-size: 1.5em;
 }
 
+ {
+  /* Greetings CSS --------------------------------*/
+}
+
 .Greetings {
   display: flex;
   justify-content: flex-start;
@@ -106,17 +122,84 @@
   width: 800px;
 }
 
+ {
+  /* IdCard CSS ------------------------*/
+}
+
 .IdCard {
-  margin-bottom: 20px;
+  margin: 30px;
+  padding: 2px;
   color: black;
   border: 3px solid black;
   display: flex;
-  flex-direction: column;
-  width: 1000px;
-  height: 600px;
+  justify-content: flex-start;
+  width: 800px;
+  height: 200px;
   font-weight: 500;
 }
 
 .Img {
-  display: block;
+  display: flex;
+  align-items: center;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.IdCard div {
+  text-align: left;
+}
+
+ {
+  /* LikeButton CSS ---------------------------------*/
+}
+
+.LikeButton {
+  font-size: 2em;
+}
+
+.LikeButton button {
+  width: 200px;
+  height: 80px;
+  font-weight: 500;
+  font-size: 1em;
+}
+.purple {
+  background-color: purple;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+  color: black;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.red {
+  background-color: red;
+}
+
+ {
+  /* Random CSS --------------------------------*/
+}
+
+.Random {
+  display: flex;
+  justify-content: flex-start;
+  color: black;
+  border: 3px solid;
+  margin: 30px 0px 10px 10px;
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 1.5em;
+  width: 800px;
 }
