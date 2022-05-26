@@ -37,9 +37,7 @@
   }
 }
 
- {
-  /* BoxColor CSS --------------------------------*/
-}
+/* BoxColor CSS --------------------------------*/
 
 .BoxColor {
   margin: 50px;
@@ -55,9 +53,7 @@
   font-size: 2em;
 }
 
- {
-  /* CreditCard CSS --------------------------------*/
-}
+/* CreditCard CSS --------------------------------*/
 
 .CreditCard {
   border-radius: 20px;
@@ -74,9 +70,7 @@
   align-content: flex-start;
 }
 
- {
-  /* DriverCard CSS --------------------------------*/
-}
+/* DriverCard CSS --------------------------------*/
 
 .DriverCard {
   background-color: #455eb5;
@@ -106,9 +100,7 @@
   font-size: 1.5em;
 }
 
- {
-  /* Greetings CSS --------------------------------*/
-}
+/* Greetings CSS --------------------------------*/
 
 .Greetings {
   display: flex;
@@ -122,9 +114,7 @@
   width: 800px;
 }
 
- {
-  /* IdCard CSS ------------------------*/
-}
+/* IdCard CSS ------------------------*/
 
 .IdCard {
   margin: 30px;
@@ -149,12 +139,11 @@
   text-align: left;
 }
 
- {
-  /* LikeButton CSS ---------------------------------*/
-}
+/* LikeButton CSS ---------------------------------*/
 
 .LikeButton {
   font-size: 2em;
+  margin: 50px;
 }
 
 .LikeButton button {
@@ -163,34 +152,8 @@
   font-weight: 500;
   font-size: 1em;
 }
-.purple {
-  background-color: purple;
-}
 
-.blue {
-  background-color: blue;
-}
-
-.green {
-  background-color: green;
-}
-
-.yellow {
-  background-color: yellow;
-  color: black;
-}
-
-.orange {
-  background-color: orange;
-}
-
-.red {
-  background-color: red;
-}
-
- {
-  /* Random CSS --------------------------------*/
-}
+/* Random CSS --------------------------------*/
 
 .Random {
   display: flex;

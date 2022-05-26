@@ -1,19 +1,17 @@
 import { useState } from 'react';
 
-const ClickablePicture = ({ img, imgClicked }) => {
-  const [newImg, setnewImg] = useState(img);
+const ClickablePicture = (props) => {
+  const [clicked, setClicked] = useState(false);
 
-  const changeImage = () => {
-    if (newImg === img) {
-      return setnewImg(imgClicked);
-    } else {
-      return setnewImg(img);
-    }
+  const handleClick = () => {
+    setClicked(!clicked);
   };
+
+  const imageSource = clicked ? props.imgClicked : props.img;
 
   return (
     <div>
-      <img onClick={changeImage} src={newImg} alt="Pepe" />
+      <img src={imageSource} alt="Maxence" onClick={handleClick} />
     </div>
   );
 };

@@ -11,7 +11,10 @@ const LikeButton = () => {
 
   return (
     <div className="LikeButton">
-      <button className={arrColors[count]} onClick={handleClick}>
+      <button
+        style={{ backgroundColor: arrColors[count] }}
+        onClick={handleClick}
+      >
         <strong>{count} Likes</strong>
       </button>
     </div>
