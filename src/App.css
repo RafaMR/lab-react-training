@@ -166,3 +166,46 @@
   font-size: 1.5em;
   width: 800px;
 }
+
+/* NumbersTable CSS -------------------------------*/
+
+.NumbersTable {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.NumbersTable > div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* NumbersTable CSS -------------------------------*/
+
+.Facebook_Profile {
+  margin: 30px;
+  padding: 2px;
+  color: black;
+  border: 3px solid black;
+  display: flex;
+  justify-content: flex-start;
+  width: 800px;
+  height: 200px;
+  font-weight: 500;
+}
+
+.Facebook_Img {
+  display: flex;
+  align-items: center;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.Facebook div {
+  text-align: left;
+}
